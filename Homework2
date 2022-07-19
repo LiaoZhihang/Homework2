@@ -1,0 +1,16 @@
+//Student用Objective-C的类定义：
+@interface Student:
+{
+  NSString* name;
+  NSString* major;
+  int age;
+}
+-(float)study:(float)time;
+@end
+@implementation MyObject :
+-(float)study: (float) time {
+    @autoreleasepool {
+        NSLog(@"Student's study time:%f",time);
+    }
+}
+@end
